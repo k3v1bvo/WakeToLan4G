@@ -78,5 +78,8 @@ Cada vez que se sube un cambio a GitHub, **GitHub Actions** compila automáticam
 
 ---
 
-## 🛡️ Licencia
-Desarrollado por [k3v1bvo](https://github.com/k3v1bvo).
+## 🛡️ Licencia y Propiedad Intelectual
+**Software Propietario y Confidencial — Todos los derechos reservados.**  
+Copyright © 2026 **Kevin Vergara Orellana ([k3v1bvo](https://github.com/k3v1bvo))**.
+
+Queda estrictamente prohibida la copia, redistribución, modificación o comercialización no autorizada del código fuente, arquitectura o ejecutables (APK) de este proyecto. Consulta el archivo [LICENSE](LICENSE) para más detalles legales.
