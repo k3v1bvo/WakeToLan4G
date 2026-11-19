@@ -57,7 +57,7 @@ Para asegurar que tu dominio DuckDNS siempre apunte a la IP pública correcta de
 * **Carpeta de Trabajo:** `C:\Users\PC\.duckdns`
 * **Script de actualización:** `C:\Users\PC\.duckdns\update.ps1`
   - Realiza un llamado silencioso a:  
-    `https://www.duckdns.org/update?domains=k3v1bvopici&token=a7c1b504-20b1-4bb2-b67c-9b596d05daeb&ip=`
+    `https://www.duckdns.org/update?domains=k3v1bvopici&token=<TU_TOKEN_DE_DUCKDNS>&ip=`
   - Registra las actualizaciones en `C:\Users\PC\.duckdns\duckdns.log`.
 * **Arranque en Windows:**  
   Ubicado en: `C:\Users\PC\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\duckdns_autoupdate.vbs`.  
