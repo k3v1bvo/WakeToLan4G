@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+app/build/
+*.apk
+*.aab
+
+# Android Studio & IDE
+.idea/
+*.iml
+.navigation/
+captures/
+output.json
+.externalNativeBuild
+.cxx
+local.properties
+
+# Python Agent
+__pycache__/
+*.pyc
+*.pyo
+windows_agent/__pycache__/
+windows_agent/.venv/
+windows_agent/agent.log
+
+# OS
+.DS_Store
+Thumbs.db
