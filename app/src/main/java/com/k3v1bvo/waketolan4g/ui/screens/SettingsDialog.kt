@@ -17,6 +17,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import com.k3v1bvo.waketolan4g.data.PreferencesManager
 import com.k3v1bvo.waketolan4g.ui.theme.*
@@ -190,6 +191,41 @@ fun SettingsDialog(
                     Icon(Icons.Default.Save, contentDescription = null, tint = BgDark)
                     Spacer(modifier = Modifier.width(8.dp))
                     Text("Guardar Cambios", color = BgDark, fontWeight = FontWeight.Bold)
+                }
+
+                Spacer(modifier = Modifier.height(24.dp))
+
+                // Sección Legal y Privacidad en UI
+                HorizontalDivider(color = CardBorder)
+                Spacer(modifier = Modifier.height(16.dp))
+
+                Column(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Text(
+                        text = "WakeToLan4G v1.0.0",
+                        style = MaterialTheme.typography.labelLarge,
+                        color = TextPrimary,
+                        fontWeight = FontWeight.Bold
+                    )
+                    Text(
+                        text = "© 2026 Kevin Vergara Orellana (k3v1bvo)",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = TextSecondary
+                    )
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(
+                        text = "Software Propietario • Privacidad 100% Local",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = CyanGlow
+                    )
+                    Text(
+                        text = "Sin recopilación en la nube ni rastreo de terceros",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = TextSecondary,
+                        fontSize = 10.sp
+                    )
                 }
             }
         }
